@@ -1,0 +1,200 @@
+#SearchABS {
+  padding: 10px;
+  height: fit-content;
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  background-color: #faf1e4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#SearchABS #navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: centere;
+  padding: 20px;
+}
+
+#SearchABS #navbar #crossContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+/* #SearchABS #searchArea {
+  width: 50vw;
+  border-style: solid;
+  border-color: #9eb384;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: var(--light-mode-background);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#SearchABS #searchArea input {
+  width: 60vw;
+  height: 60px;
+  border: none;
+  background-color: var(--light-mode-background);
+  font-size: 1.3em;
+  text-align: start;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#SearchContainer #searchBox #searchArea input:focus {
+  outline: none;
+} */
+
+.box {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .dataHeading {
+  display: flex;
+  align-items: center;
+}
+
+.box .dataHeading h3 {
+  font-family: "Lora", serif;
+  font-size: 2vw;
+}
+
+.box .dataHeading a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#boxContainer {
+  display: flex;
+  width: fit-content;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#boxContainer div {
+  margin: 20px 50px;
+  width: fit-content;
+
+}
+
+.box .line {
+  height: 2px;
+  background-color: var(--light-mode-element-main);
+  display: block;
+  margin-top: 20px;
+}
+
+.box .linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+
+.box .linksContainerC {
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh;
+}
+
+.box .linksContainer a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: var(--dark-mode-head);
+  margin-right: 100px;
+}
+
+.box .linksContainerC a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: var(--dark-mode-head);
+  margin-right: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+.box {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .dataHeading {
+  display: flex;
+  align-items: center;
+}
+
+.box .dataHeading h3 {
+  font-family: "Lora", serif;
+  font-size: 6vw;
+}
+
+.box .dataHeading a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#boxContainer {
+  display: flex;
+  width: fit-content;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#boxContainer div {
+  width: fit-content;
+
+}
+
+.box .line {
+  height: 2px;
+  background-color: var(--light-mode-element-main);
+  display: block;
+  margin-top: 20px;
+}
+
+.box .linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.box .linksContainerC {
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh;
+}
+
+.box .linksContainer a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 4vw;
+  color: var(--dark-mode-head);
+  margin-right: 100px;
+}
+
+.box .linksContainerC a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: var(--dark-mode-head);
+  margin-right: 100px;
+}
+}

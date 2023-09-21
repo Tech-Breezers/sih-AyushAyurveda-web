@@ -1,0 +1,280 @@
+#diseaseContainer {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  margin: 60px 0;
+}
+
+#line {
+  height: 3px;
+  width: 50vw;
+  background-color: #373b33;
+  display: block;
+}
+
+#disease {
+  height: fit-content;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#disease #diseaseHeads {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#disease #diseaseHeads h1 {
+  font-weight: 700;
+  font-size: 3vw;
+  color: var(--dark-mode-head);
+}
+
+#disease #diseaseHeads h3 {
+  font-size: 1vw;
+  color: #3a583a;
+}
+
+#disease #symptoms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#disease #symptoms h3 {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #373b33;
+  padding: 20px 0;  
+}
+
+#disease #symptoms span {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#disease #symptoms span p {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 100;
+  color: #373b33;
+  background-color: var(--light-mode-element-main);
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#diseaseContainer p {
+  text-align: start;
+  padding-top: 20px;
+}
+
+/****************************************************/
+
+#medicationContainer {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#medicationContainer #ingredients,
+#steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#medicationContainer h1 {
+  font-weight: 700;
+  font-size: 3vw;
+  color: var(--dark-mode-head);
+  margin-top: 50px;
+}
+
+#medicationContainer h3 {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #373b33;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+#medicationContainer #ingredients span {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#medicationContainer #ingredients span a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 100;
+  color: #373b33;
+  background-color: var(--light-mode-element-main);
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#medicationContainer #steps div {
+  display: flex;
+  flex-direction: column;
+}
+
+#medicationContainer #steps div span {
+  padding: 10px;
+  background-color: var(--light-mode-element-main);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+
+/*******************************/
+
+@media screen and (max-width: 768px) {
+  #diseaseContainer {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin: 60px 0;
+  }
+  
+  #line {
+    height: 3px;
+    width: 80vw;
+    background-color: #373b33;
+    display: block;
+  }
+  
+  #disease {
+    height: fit-content;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #disease #diseaseHeads {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  #disease #diseaseHeads h1 {
+    font-weight: 700;
+    font-size: 7vw;
+    color: var(--dark-mode-head);
+  }
+  
+  #disease #diseaseHeads h3 {
+    font-size: 4vw;
+    color: #3a583a;
+  }
+  
+  #disease #symptoms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  #disease #symptoms h3 {
+    font-size: 4vw;
+    font-weight: 700;
+    color: #373b33;
+    padding: 20px 0;  
+  }
+  
+  #disease #symptoms span {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #disease #symptoms span p {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 100;
+    color: #373b33;
+    background-color: var(--light-mode-element-main);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  #diseaseContainer p {
+    text-align: start;
+    padding-top: 20px;
+  }
+  
+  /****************************************************/
+  
+  #medicationContainer {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  #medicationContainer #ingredients,
+  #steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  #medicationContainer h1 {
+    font-weight: 700;
+    font-size: 7vw;
+    color: var(--dark-mode-head);
+    margin-top: 50px;
+  }
+  
+  #medicationContainer h3 {
+    font-size: 4vw;
+    font-weight: 700;
+    color: #373b33;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  #medicationContainer #ingredients span {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #medicationContainer #ingredients span a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 100;
+    color: #373b33;
+    background-color: var(--light-mode-element-main);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  #medicationContainer #steps div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #medicationContainer #steps div span {
+    padding: 10px;
+    background-color: var(--light-mode-element-main);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+}

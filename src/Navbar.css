@@ -1,0 +1,134 @@
+#Search nav {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light-mode-element-main);
+  align-items: center;
+  padding: 20px;
+  box-shadow: inset 0px 2px 10px black;
+}
+
+#Search nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#Search ul li {
+  color: #435334;
+  margin: 20px;
+}
+
+#Search ul li a , p{
+  color: #435334;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#Search ul li p:hover {
+  cursor: pointer;
+}
+
+#Search ul li a svg {
+  margin: 0 10px;
+}
+
+#Search .logoContainer {
+  height: 50px;
+  display: flex;
+  text-decoration: none;
+  color: #435334;
+}
+
+#Search .logoContainer img {
+  height: 50px;
+  margin-left: 20px;
+}
+#Search .logoContainer span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+#Search .logoContainer h1 {
+  font-size: 1vw;
+}
+
+#Search .logoContainer p {
+  font-size: 1vw;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  #Search .logoContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #435334;
+  }
+  
+  #Search .logoContainer img {
+    height: 50px;
+    margin-left: 20px;
+  }
+  #Search .logoContainer span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  #Search .logoContainer h1 {
+    font-size: 5vw;
+  }
+  
+  #Search .logoContainer p {
+    font-size: 5vw;
+  }
+  
+  
+
+
+    ul {
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      z-index: 100000;
+      background-color: var(--dark-mode-head);
+      left: 0;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0px 0px 20px black;
+      border-top: 2px solid var(--light-mode-element-main);
+    }
+
+     ul li  p{
+  color: var(--light-mode-element-main) !important;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+ul li  a{
+  color: var(--light-mode-element-main) !important;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+}

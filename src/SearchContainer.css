@@ -1,0 +1,357 @@
+
+@font-face {
+  src : url('./SAMARN__.TTF');
+  font-family: sm;
+}
+
+#SearchContainer {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-mode-element-main);
+}
+
+#tagsContainer {
+  width: 50vw;
+  display: flex;
+  margin-top: 20px;
+}
+
+#tagsContainer a{
+  padding: 5px 10px;
+  text-decoration: none;
+  color: var(--light-mode-background);
+  border: 1px solid var(--light-mode-element-main);
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.431);
+}
+
+
+#SearchContainer h1 {
+  font-size: 5vw;
+  font-family: sm;
+  margin: 50px;
+  color: var(--light-mode-element-main);
+}
+
+#SearchContainer h3 {
+  color: var(--light-mode-background);
+
+}
+
+/* 
+ #searchBox {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+ #searchBox #searchArea {
+  width: 50vw;
+  border-style: solid;
+  border-color: #9eb384;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: var(--light-mode-background);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+ #searchBox #searchArea input {
+  width: 90%;
+  height: 60px;
+  border: none;
+  background-color: var(--light-mode-background);
+  font-size: 1.3em;
+  text-align: start;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+ #searchBox #searchArea span {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ #searchBox #searchArea span svg{
+  width: 2vw;
+  height: 1vw;
+}
+
+ #searchBox #searchArea input:focus {
+  outline: none;
+}
+
+ #dropdown {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 50vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  height: fit-content;
+}
+
+ #dropdown a {
+  height: fit-content;
+  width: 50vw;
+  background-color: var(--light-mode-background);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--dark-mode-head);
+} */
+
+#dropdown .diseaseName {
+  font-size: 1.3vw;
+  padding: 10px 0;
+}
+
+#dropdown a span {
+  display: flex;
+}
+
+
+#dropdown a span p{
+  padding : 5px 13px;
+  border: 1px solid var(--light-mode-element-main);
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 1vw;
+}
+
+ #dropdown .listDiseases:hover {
+  background-color: var(--light-mode-background);
+}
+
+
+
+#imagesContainer {
+  display: flex;
+  height : 20vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#imagesContainer img {
+  height : 30vh;
+  filter: grayscale(100%);
+  margin: 40px;
+}
+
+
+
+
+
+
+/****************************************************************/
+
+#extraContent {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+
+#extraContent .lineSep {
+  display: block;
+  height: 2px;
+  width: 50vw;
+  background-color: var(--light-mode-element-main);
+  margin: 50px;
+}
+
+#extraContent div {
+  display: flex;
+  margin: 30px 0;
+  padding-bottom: 50px;
+  border-bottom: 2px solid var(--light-mode-element-main);
+}
+
+#extraContent div span{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+#extraContent div span h1 {
+  font-family: "Lora", serif;
+  color: var(--dark-mode-head);
+  font-size: 3vw;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+
+#extraContent div span p {
+  width: 40vw;
+  font-size: 1.2w;
+  padding: 0 20px;
+}
+#extraContent div img {
+  width: 15vw;
+  object-fit: cover;
+}
+
+
+#extraContent div:nth-child(odd) img{
+  order: 0;
+}
+
+
+#extraContent div:nth-child(even) img{
+  order: 2;
+}
+#extraContent div:nth-child(odd) span{
+  align-items: flex-start;
+}
+
+#extraContent div:nth-child(even) span{
+  align-items: flex-end;
+
+}
+
+#extraContent div:nth-child(odd) span p{
+  text-align: start;
+}
+
+#extraContent div:nth-child(even) span p{
+  text-align: end;
+
+}
+
+
+
+/****************************/
+
+@media screen and (max-width: 768px) {
+  #SearchContainer h1 {
+    font-size: 12vw;
+    text-align: center;
+  }
+
+  #extraContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #extraContent .lineSep {
+    display: block;
+    height: 2px;
+    width: 50vw;
+    background-color: var(--light-mode-element-main);
+  }
+  
+  #extraContent div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #extraContent div span{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  #extraContent div span h1 {
+    font-family: "Lora", serif;
+    color: var(--dark-mode-head);
+    font-size: 10vw;
+    margin: 30px 0;
+  }
+  
+  
+  #extraContent div span p {
+    width: 98vw;
+    font-size: 1.2w;
+  }
+  #extraContent div img {
+    width: 90vw;
+    object-fit: cover;
+  }
+  
+  /* #SearchContainer #searchBox #searchArea {
+    width: 90vw;
+  }
+  #SearchContainer #searchBox #searchArea input {
+    font-size: 1em;
+
+  }
+  #SearchContainer #searchBox #searchArea span svg{
+    width: 5vw;
+    height: 4vw;
+  }
+  #dropdown {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 90vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    height: fit-content;
+  }
+  
+   #dropdown a {
+    height: fit-content;
+    width: 90vw;
+    background-color: var(--light-mode-background);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--dark-mode-head);
+  }
+  
+  #dropdown .diseaseName {
+    font-size: 3vw;
+    padding: 10px 0;
+  }
+  
+  #dropdown a span {
+    display: flex;
+  }
+  
+  
+  #dropdown a span p{
+    padding : 2px 5px;
+    border: 1px solid var(--light-mode-element-main);
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 2vw;
+  } */
+  #tagsContainer {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  #tagsContainer a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--light-mode-background);
+    border: 1px solid var(--light-mode-element-main);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.431);
+  }
+}

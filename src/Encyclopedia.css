@@ -1,0 +1,120 @@
+#encyclopedia {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#encyclopedia h1 {
+    font-family: "Lora", serif;
+    font-size: 3vw;
+    margin: 40px 0;
+    color: var(--dark-mode-head);
+}
+
+#encyclopedia p {
+    text-align: start;
+}
+
+#encyclopedia #list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding : 10px 0px;
+}
+
+#encyclopedia #list a{
+    background-color: var(--dark-mode-head);
+    display: flex;
+    padding : 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 50vw;
+}
+
+#encyclopedia #list #tableHead {
+    display: flex;
+    width: 50vw;
+}
+
+
+#encyclopedia #list #tableHead h3:nth-of-type(1){
+    width: 30%;
+}
+#encyclopedia #list #tableHead h3:nth-of-type(2){
+    width: 70%;
+}
+
+#encyclopedia .row p:nth-of-type(1){
+    color: var(--light-mode-background);
+
+    width: 30%;
+}
+
+#encyclopedia .row p:nth-of-type(2){
+    color: var(--light-mode-background);
+
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    #encyclopedia {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    #encyclopedia h1 {
+        font-family: "Lora", serif;
+        font-size: 7vw;
+        margin: 40px 0;
+        color: var(--dark-mode-head);
+    }
+    
+    #encyclopedia p {
+        text-align: start;
+    }
+    
+    #encyclopedia #list {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding : 10px 0px;
+    }
+    
+    #encyclopedia #list a{
+        background-color: var(--dark-mode-head);
+        display: flex;
+        padding : 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 90vw;
+    }
+    
+    #encyclopedia #list #tableHead {
+        display: flex;
+        width: 90vw;
+    }
+    
+    
+    #encyclopedia #list #tableHead h3:nth-of-type(1){
+        width: 30%;
+    }
+    #encyclopedia #list #tableHead h3:nth-of-type(2){
+        width: 70%;
+    }
+    
+    #encyclopedia .row p:nth-of-type(1){
+        color: var(--light-mode-background);
+    
+        width: 30%;
+    }
+    
+    #encyclopedia .row p:nth-of-type(2){
+        color: var(--light-mode-background);
+    
+        width: 70%;
+    }
+    
+}
