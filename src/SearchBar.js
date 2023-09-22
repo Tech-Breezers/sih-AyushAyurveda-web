@@ -51,7 +51,7 @@ function SearchBar() {
         <div id="dropdown"  onBlur={() => makeFocus()}   style={{ display : 'none' }}>
           {dropdownData.map((e) => {
             return (
-              <Link reloadDocument className='listDiseases' to={`disease/${e.id}`}>
+              <Link className='listDiseases' to={`disease/${e.id}`}>
                 <p className='diseaseName'>{e.disease}</p>
                 <span>
                   {e.symp.map((e) => <p>{e}</p>)}

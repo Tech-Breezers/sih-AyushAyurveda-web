@@ -40,18 +40,18 @@ const SearchPre = () => {
             </span>
             <span className="line"></span>
             <span className="linksContainer">
-              <Link reloadDocument  to={`/disease/1`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Asthma</Link>
-              <Link reloadDocument   to={`/disease/2`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Arthritis</Link>
+              <Link  to={`/disease/1`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Asthma</Link>
+              <Link   to={`/disease/2`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Arthritis</Link>
 
-              <Link  reloadDocument  to={`/disease/3`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Diarrhea</Link>
+              <Link   to={`/disease/3`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Diarrhea</Link>
 
-              <Link reloadDocument   to={`/disease/4`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Digestion</Link>
+              <Link   to={`/disease/4`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Digestion</Link>
 
-              <Link  reloadDocument to={`/disease/5`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Fever</Link>
+              <Link  to={`/disease/5`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Fever</Link>
 
-              <Link  reloadDocument to={`/disease/6`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Hypertension</Link>
+              <Link  to={`/disease/6`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Hypertension</Link>
 
-              <Link reloadDocument  to={`/disease/7`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Goiter</Link>
+              <Link  to={`/disease/7`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Goiter</Link>
  
             </span>
           </span>
@@ -82,18 +82,18 @@ const SearchPre = () => {
             </span>
             <span className="line"></span>
             <span className="linksContainer">
-            <Link  to={`/medicine/lobelia`}>lobelia</Link>
-              <Link reloadDocument  to={`/medicine/ephedra`}>ephedra</Link>
+            <Link  to={`/medicine/lobelia`} onClick={() => ShowVar.setShow(!ShowVar.show)}>lobelia</Link>
+            <Link to={`/medicine/ephedra`} onClick={() => ShowVar.setShow(!ShowVar.show)}>ephedra</Link>
 
-              <Link reloadDocument  to={`/medicine/haritaki`}>haritaki</Link>
+              <Link to={`/medicine/haritaki`} onClick={() => ShowVar.setShow(!ShowVar.show)}>haritaki</Link>
 
-              <Link reloadDocument  to={`/medicine/sandalwood`}>sandalwood</Link>
+              <Link to={`/medicine/sandalwood`} onClick={() => ShowVar.setShow(!ShowVar.show)}>sandalwood</Link>
 
-              <Link reloadDocument  to={`/medicine/saffron`}>saffron</Link>
+              <Link to={`/medicine/saffron`} onClick={() => ShowVar.setShow(!ShowVar.show)}>saffron</Link>
 
-              <Link reloadDocument  to={`/medicine/Bala`}>Bala</Link>
+              <Link to={`/medicine/Bala`} onClick={() => ShowVar.setShow(!ShowVar.show)}>Bala</Link>
 
-              <Link reloadDocument  to={`/medicine/Brahmi`}>Brahmi</Link>
+              <Link to={`/medicine/Brahmi`} onClick={() => ShowVar.setShow(!ShowVar.show)}>Brahmi</Link>
             </span>
           </span>
         </div>

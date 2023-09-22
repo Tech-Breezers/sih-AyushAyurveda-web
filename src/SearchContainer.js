@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./SearchContainer.css";
 import "./styles.css";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import SearchBar from "./SearchBar";
 
 const SearchContainer = () => {
@@ -48,7 +48,7 @@ const SearchContainer = () => {
       <span id="tagsContainer">
       {
         data.map((e) => {
-          return <Link to={`/disease/${e.id}`}>
+          return <Link to={`/disease/${e.id}`} >
             {e.disease}
           </Link>
         })
