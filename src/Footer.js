@@ -17,34 +17,34 @@ function Footer() {
         </span>
         <span className='columnLinks'>
             <h3>Diseases</h3>
-                <Link target="_blank" to={`/disease/1`}>Asthma</Link>
-              <Link  target="_blank" to={`/disease/2`}>Arthritis</Link>
+                <Link  to={`/disease/1`}>Asthma</Link>
+              <Link   to={`/disease/2`}>Arthritis</Link>
 
-              <Link  target="_blank" to={`/disease/3`}>Diarrhea</Link>
+              <Link   to={`/disease/3`}>Diarrhea</Link>
 
-              <Link  target="_blank" to={`/disease/4`}>Digestion</Link>
+              <Link   to={`/disease/4`}>Digestion</Link>
 
-              <Link  target="_blank" to={`/disease/5`}>Fever</Link>
+              <Link   to={`/disease/5`}>Fever</Link>
 
-              <Link  target="_blank" to={`/disease/6`}>Hypertension</Link>
+              <Link   to={`/disease/6`}>Hypertension</Link>
 
-              <Link  target="_blank" to={`/disease/7`}>Goiter</Link>
+              <Link   to={`/disease/7`}>Goiter</Link>
         </span>
 
         <span className='columnLinks'>
             <h3>Medicines</h3>
-            <Link target="_blank" to={`/medicine/lobelia`}>lobelia</Link>
-              <Link  target="_blank" to={`/medicine/ephedra`}>ephedra</Link>
+            <Link  to={`/medicine/lobelia`}>lobelia</Link>
+              <Link   to={`/medicine/ephedra`}>ephedra</Link>
 
-              <Link  target="_blank" to={`/medicine/haritaki`}>haritaki</Link>
+              <Link   to={`/medicine/haritaki`}>haritaki</Link>
 
-              <Link  target="_blank" to={`/medicine/sandalwood`}>sandalwood</Link>
+              <Link   to={`/medicine/sandalwood`}>sandalwood</Link>
 
-              <Link  target="_blank" to={`/medicine/saffron`}>saffron</Link>
+              <Link   to={`/medicine/saffron`}>saffron</Link>
 
-              <Link  target="_blank" to={`/medicine/Bala`}>Bala</Link>
+              <Link   to={`/medicine/Bala`}>Bala</Link>
 
-              <Link  target="_blank" to={`/medicine/Brahmi`}>Brahmi</Link>
+              <Link   to={`/medicine/Brahmi`}>Brahmi</Link>
         </span>
 
         <span id="socialLinks">

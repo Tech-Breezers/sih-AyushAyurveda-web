@@ -1,4 +1,3 @@
-import { motion, AnimatePresence } from "framer-motion";
 import "./Navbar.css";
 import "./styles.css";
 import './SearchPre.css'
@@ -36,51 +35,20 @@ const NavBar = () => {
         </span>
       </Link>
       <ul>
-        <motion.li
-          initial={{
-            y: -50
-          }}
-          animate={{
-            y: 0
-          }}
-          transition={{
-            duration: 0.5,
-            delay: 1
-          }}
-        >
+        <li>
           <p onClick={() => SearchPreCall()}>
             <FaSearch />
             Search
           </p>
-        </motion.li>
-        <motion.li
-          initial={{
-            y: -50
-          }}
-          animate={{
-            y: 0
-          }}
-          transition={{
-            duration: 0.5,
-            delay: 1
-          }}
-        >
+        </li>
+        <li>
           <Link to={'/Encyclopedia'} element={<Encyclopedia />}><FaBookOpen />Encyclopedia</Link>
-        </motion.li>
-        <motion.li
-          initial={{
-            y: -50
-          }}
-          animate={{
-            y: 0
-          }}
-          transition={{
-            duration: 0.5,
-            delay: 1
-          }}
+        </li>
+        <li
+         
         >
           <a href="/"><FaUserAlt />Login</a>
-        </motion.li>
+        </li>
       </ul>
     </nav>
   );

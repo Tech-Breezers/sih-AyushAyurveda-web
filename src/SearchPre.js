@@ -36,22 +36,22 @@ const SearchPre = () => {
           <span className="box">
             <span className="dataHeading">
               <h3>Conditions</h3>
-              <Link target="_blank" to={'/Encyclopedia'}>View All</Link>
+              <Link  to={'/Encyclopedia'}>View All</Link>
             </span>
             <span className="line"></span>
             <span className="linksContainer">
-              <Link target="_blank" to={`/disease/1`}>Asthma</Link>
-              <Link  target="_blank" to={`/disease/2`}>Arthritis</Link>
+              <Link reloadDocument  to={`/disease/1`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Asthma</Link>
+              <Link reloadDocument   to={`/disease/2`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Arthritis</Link>
 
-              <Link  target="_blank" to={`/disease/3`}>Diarrhea</Link>
+              <Link  reloadDocument  to={`/disease/3`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Diarrhea</Link>
 
-              <Link  target="_blank" to={`/disease/4`}>Digestion</Link>
+              <Link reloadDocument   to={`/disease/4`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Digestion</Link>
 
-              <Link  target="_blank" to={`/disease/5`}>Fever</Link>
+              <Link  reloadDocument to={`/disease/5`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Fever</Link>
 
-              <Link  target="_blank" to={`/disease/6`}>Hypertension</Link>
+              <Link  reloadDocument to={`/disease/6`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Hypertension</Link>
 
-              <Link  target="_blank" to={`/disease/7`}>Goiter</Link>
+              <Link reloadDocument  to={`/disease/7`}  onClick={() => ShowVar.setShow(!ShowVar.show)}>Goiter</Link>
  
             </span>
           </span>
@@ -78,22 +78,22 @@ const SearchPre = () => {
           <span className="box">
             <span className="dataHeading">
               <h3>Herbs</h3>
-              <Link target="_blank" to={'/Encyclopedia'}>View All</Link>
+              <Link  to={'/Encyclopedia'}>View All</Link>
             </span>
             <span className="line"></span>
             <span className="linksContainer">
-            <Link target="_blank" to={`/medicine/lobelia`}>lobelia</Link>
-              <Link  target="_blank" to={`/medicine/ephedra`}>ephedra</Link>
+            <Link  to={`/medicine/lobelia`}>lobelia</Link>
+              <Link reloadDocument  to={`/medicine/ephedra`}>ephedra</Link>
 
-              <Link  target="_blank" to={`/medicine/haritaki`}>haritaki</Link>
+              <Link reloadDocument  to={`/medicine/haritaki`}>haritaki</Link>
 
-              <Link  target="_blank" to={`/medicine/sandalwood`}>sandalwood</Link>
+              <Link reloadDocument  to={`/medicine/sandalwood`}>sandalwood</Link>
 
-              <Link  target="_blank" to={`/medicine/saffron`}>saffron</Link>
+              <Link reloadDocument  to={`/medicine/saffron`}>saffron</Link>
 
-              <Link  target="_blank" to={`/medicine/Bala`}>Bala</Link>
+              <Link reloadDocument  to={`/medicine/Bala`}>Bala</Link>
 
-              <Link  target="_blank" to={`/medicine/Brahmi`}>Brahmi</Link>
+              <Link reloadDocument  to={`/medicine/Brahmi`}>Brahmi</Link>
             </span>
           </span>
         </div>
