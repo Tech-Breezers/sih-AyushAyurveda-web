@@ -1,12 +1,16 @@
 import React from 'react'
 import './SearchBar.css'
-import { useState, useEffect } from "react";
+import { useContext, useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Show } from './Navbar.js'
+
 
 function SearchBar() {
     const [dropdownData, setDropDownData] = useState([]);
     const [search, setSearch] = useState("");
+    const ShowVar = useContext(Show)
+
     
     const checkChange = () => {
       if(search) {
@@ -51,7 +55,7 @@ function SearchBar() {
         <div id="dropdown"  onBlur={() => makeFocus()}   style={{ display : 'none' }}>
           {dropdownData.map((e) => {
             return (
-              <Link className='listDiseases' to={`disease/${e.id}`}>
+              <Link className='listDiseases' to={`disease/${e.id}`} >
                 <p className='diseaseName'>{e.disease}</p>
                 <span>
                   {e.symp.map((e) => <p>{e}</p>)}
