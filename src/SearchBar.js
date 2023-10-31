@@ -14,7 +14,7 @@ function SearchBar() {
     
     const checkChange = () => {
       if(search) {
-        fetch(`http://16.16.68.203:3001/api/suggest?q=${search}`).then((res) => {
+        fetch(`http://13.53.190.29:3001/api/suggest?q=${search}`).then((res) => {
           res.json().then(data => {
             setDropDownData(data)
             console.log(data);

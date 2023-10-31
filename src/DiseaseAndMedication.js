@@ -11,7 +11,7 @@ const DiseaseAndMedication = () => {
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    fetch(`http://16.16.68.203:3001/api/treat/${params.name}`).then((res) => {
+    fetch(`http://13.53.190.29:3001/api/treat/${params.name}`).then((res) => {
       res.json().then(d => {
         if(d.length) {
           setData(d[0])

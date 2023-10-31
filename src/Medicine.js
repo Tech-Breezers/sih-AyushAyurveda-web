@@ -10,7 +10,7 @@ const Medicine = () => {
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(false)
   useEffect(() => {
-    fetch(`http://16.16.68.203:3001/api/search/med?q=${params.name}`).then((res) => {
+    fetch(`http://13.53.190.29:3001/api/search/med?q=${params.name}`).then((res) => {
       res.json().then((d) => {
         setData(d[0])
         setLoading(true)

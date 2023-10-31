@@ -9,7 +9,7 @@ function Encyclopedia() {
 
 
   useEffect(() => {
-    fetch('http://16.16.68.203:3001/api/treat').then((response) => {
+    fetch('http://13.53.190.29:3001/api/treat').then((response) => {
       response.json().then((data) => {
         setData(data);
         setLoading(true);

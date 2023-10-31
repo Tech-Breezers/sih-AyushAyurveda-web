@@ -9,7 +9,7 @@ const SearchContainer = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('http://16.16.68.203:3001/api/suggest/dis').then((res) => {
+    fetch('http://13.53.190.29:3001/api/suggest/dis').then((res) => {
       res.json().then((data) => {
         setData(data)
       })
